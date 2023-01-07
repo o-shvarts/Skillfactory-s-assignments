@@ -1,7 +1,7 @@
 quant = int(input("Введите колчество посетителей\n"))
-l = [int(input("Ведите возраст посетителя\n")) for i in range(quant)]
-sum_pref = [990 for i in l if 18 <= i <= 25]
-sum_full = [1390 for i in l if i > 25]
+age = [int(input("Ведите возраст посетителя\n")) for i in range(quant)]
+sum_pref = [990 for i in age if 18 <= i <= 25]
+sum_full = [1390 for i in age if i > 25]
 sum_all = sum(sum_pref) + sum(sum_full)
 if quant > 3:
     print("Общая стоимость билетов с учётом скидки", sum_all*0.9, "руб.")
