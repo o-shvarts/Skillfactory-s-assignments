@@ -1,5 +1,5 @@
 quant = int(input("Введите колчество посетителей\n"))
-age = [int(input("Ведите возраст посетителя\n")) for i in range(quant)]
+age = [int(input("Введите возраст посетителя\n")) for i in range(quant)]
 sum_pref = [990 for i in age if 18 <= i <= 25]
 sum_full = [1390 for i in age if i > 25]
 sum_all = sum(sum_pref) + sum(sum_full)
