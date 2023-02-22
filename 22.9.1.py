@@ -1,6 +1,5 @@
 l = input('Введите список чисел, разделённых пробелом\n')
-list_ = l.split()
-arr_ = list(map(int, list_))
+arr_ = list(map(int, l.split()))
 print(arr_)
 
 
