@@ -26,7 +26,6 @@ def merge(left, right):
             result.append(right[j])
             j += 1
 
-    # добавляем хвосты
     while i < len(left):
         result.append(left[i])
         i += 1
@@ -39,7 +38,7 @@ def merge(left, right):
 arr = merge_sort(arr_)
 print(arr)
 
-elem = int(input('Введите искомое число\n'))
+elem = int(input('Введите число\n'))
 
 i = 0
 j = len(arr) - 1
