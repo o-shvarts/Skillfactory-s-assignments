@@ -37,7 +37,7 @@ def merge(left, right):
 arr = merge_sort(arr_)
 print(arr)
 
-elem = int(input('Введите искомое число\n'))
+elem = int(input('Введите искомое  число\n'))
 
 i = 0
 j = len(arr) - 1
